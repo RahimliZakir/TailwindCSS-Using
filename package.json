@@ -1,0 +1,14 @@
+{
+  "name": "TailwindCSS-Using",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/css/style.css -o public/css/style.css"
+  },
+  "repository": "https://github.com/RahimliZakir/TailwindCSS-Using.git",
+  "author": "RahimliZakir <zakirer@code.edu.az>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,SAAS,CAAT,IAAS,CACT,SAAS,CAAT,UAAS,CACT,SAAS,CAAT,SAAS",
+    "sources": [
+        "../scss/style.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
