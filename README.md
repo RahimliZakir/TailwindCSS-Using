@@ -2,10 +2,10 @@
 
 <p>
   <a href="https://tailwindcss.com/#gh-light-mode-only" target="_blank">
-    <img src="./.github/logo-light.svg" alt="Tailwind CSS" width="350" height="70">
+    <img src="./src/img/logo.svg" alt="Tailwind CSS" width="350" height="70">
   </a>
   <a href="https://tailwindcss.com/#gh-dark-mode-only" target="_blank">
-    <img src="./.github/logo-dark.svg" alt="Tailwind CSS" width="350" height="70">
+    <img src="./src/img/logo.svg" alt="Tailwind CSS" width="350" height="70">
   </a>
 </p>
 
@@ -18,7 +18,7 @@ A utility-first CSS framework for rapidly building custom user interfaces.
     <a href="https://github.com/tailwindcss/tailwindcss/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
 </p>
 
-------
+---
 
 ## Documentation
 
