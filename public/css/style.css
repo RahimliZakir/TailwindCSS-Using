@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-4{
   height: 1rem;
 }
@@ -538,6 +542,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 12rem;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .items-end{
   align-items: flex-end;
 }
@@ -552,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .gap-10{
@@ -769,6 +781,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px){
+  .sm\:hidden{
+    display: none;
+  }
+
   .sm\:h-32{
     height: 8rem;
   }
@@ -780,8 +796,24 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px){
+  .md\:col-span-1{
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
   .md\:flex{
     display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 
   .md\:grid-cols-3{
@@ -794,6 +826,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:border-2{
     border-width: 2px;
+  }
+
+  .md\:text-right{
+    text-align: right;
   }
 }
 
